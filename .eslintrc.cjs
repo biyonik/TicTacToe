@@ -10,7 +10,13 @@ module.exports = {
     parserOptions: {
         "ecmaVersion": 2021,
         "ecmaFeatures": {
-            "jsx": true
+            "jsx": true,
+            'experimentalObjectRestSpread': true,
+            'modules': true,
+            'spread': true,
+            'restParams': true,
+            'blockBindings': true,
+            'arrowFunctions': true,
         },
         "sourceType": "module"
     },
