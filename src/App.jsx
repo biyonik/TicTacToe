@@ -1,10 +1,11 @@
 import './styles.scss';
-import Board from './components/Board.jsx';
+import Game from './components/Game';
 
 export default function App() {
+
   return (
     <div className='app'>
-      <Board />
+      <Game />
     </div>
-  )
+  );
 }
